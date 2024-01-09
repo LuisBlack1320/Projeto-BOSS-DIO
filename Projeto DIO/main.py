@@ -13,7 +13,7 @@ def script():
     print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
     
     # Apresentações para o usuário.
-    print("Olá bravo(a) guerreiro(a)! Seja bem-vindo(a) ao nosso HQ dos heróis de Farland City!")
+    print("Olá bravo(a) guerreiro(a)! Seja bem-vindo(a) ao nosso QG dos heróis de Farland City!")
 
     # Variável para armazenar o nome do nosso herói.
     nomeHeroi = input("\nPor favor! Peço que se apresente falando seu NOME:\n>>>\t")
@@ -43,21 +43,21 @@ def script():
     # Um adicional que eu fiz para o script, que dá uma nota pro herói baseado no nível dele.
     notaHQ = None
     if xpHeroi < 1000:
-        notaHQ = "1/10"
+        notaQG = "1/10"
     elif xpHeroi >= 1001 and xpHeroi <= 2000:
-        notaHQ = "2/10"
+        notaQG = "2/10"
     elif xpHeroi >= 2001 and xpHeroi <= 5000:
-        notaHQ = "4/10"
+        notaQG = "4/10"
     elif xpHeroi >= 5001 and xpHeroi <= 7000:
-        notaHQ = "6/10"
+        notaQG = "6/10"
     elif xpHeroi >= 7001 and xpHeroi <= 8000:
-        notaHQ = "7/10"
+        notaQG = "7/10"
     elif xpHeroi >= 8001 and xpHeroi <= 9000:
-        notaHQ = "8/10"
+        notaQG = "8/10"
     elif xpHeroi >= 9001 and xpHeroi <= 10000:
-        notaHQ = "9/10"
+        notaQG = "9/10"
     elif xpHeroi >= 10001:
-        notaHQ = "10/10"
+        notaQG = "10/10"
 
     print("Calculando relatório de Herói...")
     time.sleep(0.5)
@@ -79,7 +79,7 @@ def script():
         "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n-------------------- RELATÓRIO DE HERÓI --------------------"
         f"\nNome: {nomeHeroi}"
         f"\nNível do Herói: {nivelHeroi} ( XP: {xpHeroi} )"
-        f"\nNota HQ para missões especifícas de nível: {notaHQ}"
+        f"\nNota QG para missões especifícas de nível: {notaQG}"
         "\nUse esse relatório com suas INFORMAÇÕES para conseguir trabalhos de acordo com seu nível."
         "\n-------------------- RELATÓRIO DE HERÓI --------------------"
     )
